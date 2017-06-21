@@ -1,6 +1,6 @@
 <?php
 error_reporting( E_ALL & ~E_DEPRECATED & ~E_NOTICE );
-if(!mysql_connect("localhost","root",""))
+if(!mysql_connect("172.30.93.137","root",""))
 {
 	die('oops connection problem ! --> '.mysql_error());
 }
